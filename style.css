@@ -1,0 +1,60 @@
+@font-face {
+  font-family: HarryPFont; /* set name */
+  src: url(harrypfont.TTF); /* url of the font */
+}
+/* Ésta es la fuente con la que responde Tom Riddle*/
+@font-face {
+    font-family: "Aquiline";
+    src: url("AquilineTwo.ttf") format("truetype");
+}
+body {
+    margin: 0;
+    background: rgb(145,145,145);
+    background-image: url("img/chamber.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    font-family: HarryPFont;
+    font-size: clamp(60px, 7vw, 115px);
+    color: #f7f1df;
+    text-align: center;
+    margin: 25px 0 35px 0;
+    letter-spacing: 4px;
+
+    text-shadow:
+        0 0 8px rgba(255,255,255,0.7),
+        0 0 18px rgba(180,220,200,0.45),
+        4px 4px 8px rgba(0,0,0,0.95);
+
+    transform: rotate(-1deg);
+}
+h3 {
+    text-align: center;
+    margin: 40px 0;
+
+    font-family: "Times New Roman", serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 a,
+h3 a:visited {
+    color: #3b2414;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #7c4b20;
+}
+
+#canvas {
+    width: 90vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
